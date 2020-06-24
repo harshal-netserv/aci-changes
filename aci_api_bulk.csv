@@ -1,0 +1,4 @@
+,,work_order_no,Description,Policy Group,Leaf,Interface,Admin State,Vlan ID,Tenant Name,Port Mode,Port Type,Bridge Domain,EPG,Application
+,,CHG0004,test1,test_policy,101,Eth1/15,disable,102,new_tenant,access,Physical,new_bd,new_epg,new_app
+,,CHG0005,test2,test_policy,102,Eth1/16,enable,103,new_tenant,trunk,Physical,new_bd,new_epg,new_app
+,,CHG0006,test3,test_policy,101,Eth1/17,disable,104,new_tenant,access,Physical,new_bd,new_epg,new_app
