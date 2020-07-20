@@ -1,0 +1,4 @@
+Work Order No,Leaf,Interface,Admin State,Vlan ID,Tenant Name,Port Mode,Port Type,Bridge Domain,EPG,Application,Speed
+VPC0001,101 102,Eth1/3,disable,100 101,WDC_Main,trunk,Virtual Port-Channel,WDC_BD,EPG_Vlan_100 EPG_Vlan_101,WDC_Main,1G
+VPC0002,101 102,Eth1/4,disable,100,WDC_Main,trunk,Virtual Port-Channel,WDC_BD,EPG_Vlan_100,WDC_Main,10G
+VPC0003,101 102,Eth1/5,disable,101,WDC_Main,trunk,Virtual Port-Channel,WDC_BD,EPG_Vlan_101,WDC_Main,Auto

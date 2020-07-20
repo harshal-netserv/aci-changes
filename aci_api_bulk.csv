@@ -1,4 +1,4 @@
-,,work_order_no,Description,Policy Group,Leaf,Interface,Admin State,Vlan ID,Tenant Name,Port Mode,Port Type,Bridge Domain,EPG,Application
-,,CHG0004,test1,test_policy,101,Eth1/15,disable,102,new_tenant,access,Physical,new_bd,new_epg,new_app
-,,CHG0005,test2,test_policy,102,Eth1/16,enable,103,new_tenant,trunk,Physical,new_bd,new_epg,new_app
-,,CHG0006,test3,test_policy,101,Eth1/17,disable,104,new_tenant,access,Physical,new_bd,new_epg,new_app
+,,Work Order No,,,Leaf,Interface,Admin State,Vlan ID,Tenant Name,Port Mode,Port Type,Bridge Domain,EPG,Application,Speed
+,,CHG0004,,,101,Eth1/3 Eth1/2,disable,100 101,WDC_Main,trunk,Port-Channel,WDC_BD,EPG_Vlan_100 EPG_Vlan_101,WDC_Main,1G
+,,CHG0005,,,102,Eth1/4,disable,100 101,WDC_Main,access,Physical,WDC_BD,EPG_Vlan_100,WDC_Main,10G
+,,CHG0006,,,101,Eth1/5,disable,101,WDC_Main,access,Physical,WDC_BD,EPG_Vlan_101,WDC_Main,Auto
